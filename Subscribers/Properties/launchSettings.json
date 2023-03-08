@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SubscriberApp": {
+      "commandName": "Project",
+      "commandLineArgs": "\"*.critical\""
+    }
+  }
+}
