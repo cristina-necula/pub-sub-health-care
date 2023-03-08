@@ -16,7 +16,7 @@ Overall, the system:
 
 Solutions in this package:
 - Publisher: .Net Core 7 minimal API that receives patiens and their data and transform it for sending to suscribers 
-- Subscribers: Hosted service that subscribes to a certain topic and displays new messages
+- Subscribers: Hosted service that subscribes to a certain topic and displays new messages; run with command line param routingKey="*.critical"
 - Common: Common layer on top of RabbitMQ to be used by publisher and subscriber
 - DataAccess.EFCore: Data access layer that handles EF 
 - Domain: Domain layer that holds the entities and interfaces of the project
